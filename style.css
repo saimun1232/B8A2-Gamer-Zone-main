@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header style start */
+.header{
+    padding: 40px 0;
+}
+.head-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 90%;
+margin: 0 auto;
+}
+.head-left{
+width: 50%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.head-left>img{
+    width: 50px;
+    height: 30px;
+}
+.head-left>h1{
+font-size: 45px;
+font-weight: 700;
+margin-left: 20px
+}
+.head-left>h1>span{
+background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav{
+    width: 50%;
+}
+.nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav>ul>li{
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.nav>ul>li>a{
+text-decoration: none;
+color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.li-last{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-youtube{
+    color:#F61C0D;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fa-tiktok{
+    font-size: 20px;
+}
+/* Header style end */
+/* main section style start */
+.banner-section{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.banner-section-left{
+    width: 50%;
+    background-image: url('images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.ban-title-one{
+    color: #0B0223;
+text-align: left;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.ban-title{
+text-align: left;
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.list-item{
+    list-style: none;
+    margin-top: 20px;
+}
+.list-item>li{
+color: #534C64;
+text-align: left;
+font-size: 20px;
+font-weight: 500;
+text-transform: lowercase;
+padding: 10px 10px;
+}
+.fa-solid{
+    width: 20px;
+    height: 20px;
+}
+.fa-circle-play,.fa-download{
+    color: #FF42A5;
+}
+.banner-btn{
+padding: 10px 20px;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+border: none;
+border-radius: 25px;
+}
+.btn1{
+background-image:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.btn2{
+background-color: #4EC5F7;
+margin: 20px 20px 0 0;
+}
+.banner-section-right{
+    width: 50%;
+}
+.banner-section-right>img{
+    width: 90%;
+    height: 90%;
+}
+/* main section style end */

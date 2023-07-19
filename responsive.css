@@ -1,0 +1,55 @@
+
+@media screen and (max-width:576px) {
+    /* header resposive style start */
+    .header{
+        padding: 10px;
+    }
+    .head-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .head-left{
+    width: 50%;
+    justify-content:center;
+    }
+    .nav{
+        width: 50%;
+    }
+    .nav>ul{
+        flex-direction: column;
+        gap: 0px;
+    }
+/* header resposive style end */
+/* main responsive style start */
+/* Banner section responsive style start */
+.banner-section{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.banner-section-left{
+    padding: 30px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ban-title-one{
+    text-align: left;
+    font-size: 30px;
+}
+.ban-title{
+text-align: left;
+font-size: 80px;
+}
+.list-item{
+    margin-top: 10px;
+}
+.list-item>li{
+padding: 5px 5px;
+}
+.banner-section-right{
+    width: 90%;
+}
+/* Banner section responsive style end */
+/* main responsive style end */
+}
