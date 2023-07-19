@@ -88,6 +88,35 @@ line-height: 30px;
 font-size: 25px;
 line-height: 30px;
 }
+/* section two style end */
+/* section three style start */
+
+.image-section-grid{
+    max-width: 90%;
+}
+.image-section-des>h1{
+font-size: 30px;
+}
+.image-section-des>h1>span{
+font-size: 30px;
+
+}
+.image-section-des>h6{
+    margin-bottom: 10px;
+}
+.image-section{
+    max-width:100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 50px;
+}
+.img-btn{
+    position: relative;
+}
+.img-item>figcaption{
+    text-align: center;
+}
+/* section three style end */
 /* main responsive style end */
 /* footer responsive style start */
 .foot-nav-grid{
