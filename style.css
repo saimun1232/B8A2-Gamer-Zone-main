@@ -74,6 +74,7 @@ font-weight: 600;
 }
 .fa-tiktok{
     font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 /* Header style end */
 /* main section style start */
@@ -150,3 +151,102 @@ margin: 20px 20px 0 0;
     height: 90%;
 }
 /* main section style end */
+/* footer section style start */
+.footer{
+    max-width: 100%;
+    height: 80vh;
+    border: 1px solid red;
+    background-color:#0B0223;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.foot-logo>img{
+    width: 50px;
+    height: 30px;
+}
+.foot-logo>h3{
+    text-align: center;
+font-size: 30px;
+font-weight: 700;
+}
+.foot-logo>h3>span{
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.foot-nav{}
+.foot-nav>ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foot-nav>ul>li{
+    list-style: none;
+}
+.foot-nav>ul>li>a{
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.foot-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+.fa-brands{
+    color: white;
+}
+.nav2{
+    margin-bottom: 20px;
+}
+.nav2>ul>li>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+.footer-container>p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+/* footer section style end */
+/* test */
+.foot-nav-grid{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+}
+.item{
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+.foot-nav-grid1{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px; 
+    justify-content: center;
+    margin: 10px 0;
+}
