@@ -164,9 +164,10 @@ margin: 20px 20px 0 0;
 /* section two style start */
 .banner-section2{
     max-width: 90%;
-    margin: 40px auto;
-    height: 50vh;
+    margin: 100px auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .banner-section2-left{
     width: 50%;
@@ -385,7 +386,6 @@ line-height: 30px;
     border-radius: 25px;
 }
 .profile-link>a{
-    overflow: hidden;
     font-size: 20px;
     text-decoration: none;
     display: flex;

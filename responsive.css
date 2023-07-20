@@ -145,6 +145,16 @@ font-size: 30px;
     text-align: left;
 }
 /* second play section style is end */
+/* profile section responsive style is start */
+
+.profile-link{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 0;
+}
+/* profile section responsive style is end */
 /* main responsive style end */
 /* footer responsive style start */
 .footer{
