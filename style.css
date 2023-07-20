@@ -1,3 +1,4 @@
+/* universal style */
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +11,6 @@ body{
     'main'
     'footer' ;
     grid-template-rows: min-content auto min-content;
-}
-.main{
-    grid-area: main;
 }
 /* Header style start */
 .header{
@@ -88,6 +86,10 @@ font-weight: 600;
 }
 /* Header style end */
 /* main section style start */
+.main{
+    grid-area: main;
+}
+/* banner section style start */
 .banner-section{
     max-width: 90%;
     height: 80vh;
@@ -160,8 +162,8 @@ margin: 20px 20px 0 0;
     width: 90%;
     height: 90%;
 }
-/* section one style end */
-/* section two style start */
+/*banner section one style end */
+/*banner section two style start */
 .banner-section2{
     max-width: 90%;
     margin: 100px auto;
@@ -212,7 +214,7 @@ font-size: 32px;
 font-weight: 700;
 line-height: 45px;
 }
-/* section two style end */
+/*banner section two style end */
 /* image section three style start  */
 .image-section-grid{
     text-align: center;
@@ -220,7 +222,6 @@ line-height: 45px;
     margin: 30px auto;
     margin-bottom: 30px;
 }
-.image-section-des{}
 .image-section-des>h1{
     color: #0B0223;
 font-size: 48px;
@@ -309,7 +310,7 @@ position: absolute;
     
 }
 /* image section three style end */
-/* play section  style is start*/
+/* play section one  style is start*/
 .play-section{
     max-width: 80%;
     margin: 0 auto;
@@ -353,7 +354,7 @@ line-height: 30px;
     top: 60%;
     left: 10%;
 }
-/* play section  style is end*/
+/* play section one style is end*/
 /* second play section style is start */
 .play-section2{
     max-width: 80%;
@@ -407,11 +408,6 @@ line-height: 30px;
     color: #ff42a5;
   }
 /* profile link section style is end */
-/* games-section */
-
-
-
-
 /* main section style end */
 /* footer section style start */
 .footer{

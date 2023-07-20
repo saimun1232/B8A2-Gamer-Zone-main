@@ -64,7 +64,7 @@ padding: 5px 5px;
     height: 100%;
 }
 /* Banner section one responsive style end */
-/* section two style start */
+/* banner section two style start */
 .banner-section2{
     max-width: 100%;
     flex-direction: column;
@@ -96,8 +96,8 @@ line-height: 30px;
 font-size: 25px;
 line-height: 30px;
 }
-/* section two style end */
-/* section three style start */
+/* banner section two style end */
+/* image section three style start */
 
 .image-section-grid{
     max-width: 90%;
