@@ -387,6 +387,7 @@ line-height: 30px;
     border-radius: 25px;
 }
 .profile-link>a{
+    color: #0B0223;
     font-size: 20px;
     text-decoration: none;
     display: flex;
