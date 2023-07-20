@@ -117,8 +117,39 @@ font-size: 30px;
     text-align: center;
 }
 /* section three style end */
+/* play section responsive style start */
+.play-section{
+    max-width: 90%;
+    margin-top:80px ;
+    flex-direction: column;
+}
+.play-sec-des{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.play-sec-des>h2{
+    font-size: 30px;
+}
+.img-box{
+    width: 90%;
+}
+/* play section responsive style end */
+/* second play section style is start */
+.play-section2{
+    max-width: 90%;
+    margin-top:50px ;
+    flex-direction: column-reverse;
+}
+.img-box2{
+    text-align: left;
+}
+/* second play section style is end */
 /* main responsive style end */
 /* footer responsive style start */
+.footer{
+    padding: 20px;
+}
 .foot-nav-grid{
     display: grid;
     grid-template-columns: auto auto auto;
