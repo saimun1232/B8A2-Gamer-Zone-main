@@ -1,5 +1,13 @@
 
 @media screen and (max-width:576px) {
+
+    body{
+        grid-template-areas: 
+        'header'
+        'main'
+        'footer' ;
+        grid-template-rows: min-content auto min-content;
+    }
     /* header resposive style start */
     .header{
         padding: 10px;
@@ -148,11 +156,16 @@ font-size: 30px;
 /* profile section responsive style is start */
 
 .profile-link{
+    max-width: 100%;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: center;
-    align-content: center;
-    grid-gap: 0;
+}
+.profile-link>a{
+    font-size: 18px;
+    gap: 0;
+    padding: 10px;
+    margin-bottom:5px;
 }
 /* profile section responsive style is end */
 /* main responsive style end */
